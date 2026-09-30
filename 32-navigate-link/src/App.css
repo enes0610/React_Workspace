@@ -1,0 +1,68 @@
+/* Genel stil */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  padding: 15px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Input ve Button */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button.btn, .btn {
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+button.btn:hover, .btn:hover {
+  background: #555;
+}
+
+/* Link stil */
+a.btn {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,53 @@
+/* Genel */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tema arkaplanları */
+.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.dark {
+  background-color: #1c1c1c;
+  color: #eee;
+}
+
+/* İçerik Container */
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: inherit;
+  transition: 0.3s ease;
+}
+
+/* Buton */
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.light .btn {
+  background: #222;
+  color: white;
+}
+
+.dark .btn {
+  background: #eee;
+  color: #222;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

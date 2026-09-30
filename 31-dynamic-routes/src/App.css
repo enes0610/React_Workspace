@@ -1,0 +1,65 @@
+/* Genel ayarlar */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #fff;
+  padding: 15px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+/* Sayfa container */
+div {
+  padding: 20px;
+}
+
+/* Kullanıcı listesi */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: 0.2s;
+}
+
+ul li:hover {
+  background: #f1f1f1;
+}
+
+/* Link stil */
+ul li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+/* Kullanıcı detay kutusu */
+.user-detail {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  max-width: 350px;
+}

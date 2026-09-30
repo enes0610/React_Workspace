@@ -1,0 +1,55 @@
+/* src/App.css */
+
+/* Genel body ayarları */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar için stil */
+nav {
+  background-color: #eee;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: blue;
+}
+
+/* Sayfa içerikleri */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+/* Navbar genel stil */
+.navbar {
+  padding: 20px;
+  background-color: #eee;
+}
+
+/* Linkler */
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Aktif sayfa vurgusu */
+.nav-link.active {
+  font-weight: bold;
+  color: blue;
+}

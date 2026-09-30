@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "f475",
+      "title": "React"
+    },
+    {
+      "id": "ae26",
+      "title": "React & Db Json"
+    },
+    {
+      "id": "a609",
+      "title": "Axios & Json Server"
+    }
+  ]
+}

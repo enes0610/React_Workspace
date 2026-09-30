@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.count {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.btn-group button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-group button:hover {
+  transform: scale(1.05);
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #005fcc;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.todo-list li {
+  background: #eee;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete {
+  background: red;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background: darkred;
+}

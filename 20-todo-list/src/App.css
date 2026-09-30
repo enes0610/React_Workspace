@@ -1,0 +1,81 @@
+/* Genel Stil */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+.input-group,
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.input-group:hover,
+.list-group-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-control:focus {
+  border-color: #4CAF50;
+}
+
+.btn {
+  padding: 5px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-warning {
+  background: #f39c12;
+}
+
+.btn-success {
+  background: #2ecc71;
+}
+
+.btn-danger {
+  background: #e74c3c;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}

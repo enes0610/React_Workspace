@@ -1,0 +1,26 @@
+/* Sayacın gösterildiği alanın stilini ayarlıyoruz */
+.count-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Düğme stilleri (Ayrı Hover Efekti) */
+.btn-primary {
+  margin: 0 10px;
+}
+
+.btn-primary:hover {
+  background-color: #007bff;
+  border-color: #0056b3;
+}
+
+/* Container için özel bir görünüm */
+.container {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+}

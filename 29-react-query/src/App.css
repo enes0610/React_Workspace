@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #eef1f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Loading & Error */
+.loading,
+.error {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.error {
+  color: red;
+}
+
+/* Add New Post */
+.add-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.add-box button {
+  padding: 12px 18px;
+  background: teal;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-box button:hover {
+  background: #006b6b;
+}
+
+/* List */
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  background: #f7f7f7;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 5px solid teal;
+  border-radius: 8px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.page-btn {
+  padding: 10px 14px;
+  background: #ddd;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.page-btn:hover {
+  background: #ccc;
+}
+
+.page-number {
+  font-weight: bold;
+}

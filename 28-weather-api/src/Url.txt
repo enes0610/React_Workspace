@@ -1,0 +1,17 @@
+URL LİNK: https://openweathermap.org/
+
+* Kayıt Olun ve Giriş Yapın.
+
+* Kullanıcı Adı'nıza tıklayınız.
+
+* My API Key'e tıklayın.
+
+* API keys'e tıklayın.
+
+* Default key'i Active edin.
+
+* Default key'i koplayayın.
+
+* apiKey = 'API KEY'; ' ' tırnaklar içine Key'i yapıştırın.
+
+* Projeyi Çalıştırın.
